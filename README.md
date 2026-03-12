@@ -33,7 +33,7 @@ A **complete end-to-end data analytics project** analyzing **128,976 Amazon frei
 
 ### Power BI 4-Page Interactive Dashboard
 
-![Dashboard Overview](screenshots/dashboard_preview.png)
+![Dashboard Overview](Page_1.png)
 
 #### Page 1: Executive Dashboard
 ![Executive Dashboard](screenshots/page1_executive_dashboard.png)
