@@ -99,14 +99,14 @@ A **complete end-to-end data analytics project** analyzing **128,976 Amazon frei
 <td width="50%">
 
 **1. Category Revenue Distribution (Pareto)**
-![Category Pareto](screenshots/category_pareto.png)
+![Category Pareto](category_pareto.png)
 *Shows 80% of revenue comes from top 3 categories*
 
 </td>
 <td width="50%">
 
 **2. City Segmentation Analysis**
-![City Segmentation](screenshots/city_segmentation.png)
+![City Segmentation](city_segmentation.png)
 *Bubble chart: Size=AOV, Color=Success Rate*
 
 </td>
@@ -116,14 +116,14 @@ A **complete end-to-end data analytics project** analyzing **128,976 Amazon frei
 <td width="50%">
 
 **3. Fulfillment Comparison**
-![Fulfillment](screenshots/fulfillment_comparison.png)
+![Fulfillment](fulfillment_comparison.png)
 *Amazon vs Merchant performance across 4 metrics*
 
 </td>
 <td width="50%">
 
 **4. Daily Revenue Trend**
-![Revenue Trend](screenshots/revenue_trend.png)
+![Revenue Trend](revenue_trend.png)
 *7-day and 14-day moving averages*
 
 </td>
@@ -133,14 +133,14 @@ A **complete end-to-end data analytics project** analyzing **128,976 Amazon frei
 <td width="50%">
 
 **5. Service Level Analysis**
-![Service Level](screenshots/service_level_analysis.png)
+![Service Level](service_level_analysis.png)
 *SLA compliance: Expedited vs Standard*
 
 </td>
 <td width="50%">
 
 **6. State Performance Comparison**
-![State Performance](screenshots/state_performance.png)
+![State Performance](state_performance.png)
 *Top 10 states: Success vs Cancel rates*
 
 </td>
@@ -150,7 +150,7 @@ A **complete end-to-end data analytics project** analyzing **128,976 Amazon frei
 <td>
 
 **7. Weekly Trends**
-![Weekly Trends](screenshots/weekly_trends.png)
+![Weekly Trends](weekly_trends.png)
 *Success and cancellation rates over 13 weeks*
 
 </td>
