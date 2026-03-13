@@ -36,7 +36,8 @@ A **complete end-to-end data analytics project** analyzing **128,976 Amazon frei
 ![Dashboard Overview](Page_1.png)
 
 #### Page 1: Executive Dashboard
-(https://github.com/user-attachments/assets/176afb9c-3097-4cca-bcb1-d9058f90ee87)
+https://github.com/user-attachments/assets/176afb9c-3097-4cca-bcb1-d9058f90ee87
+
 *Key performance metrics, state-wise analysis, and daily trends with conditional formatting*
 
 **Features:**
@@ -49,7 +50,8 @@ A **complete end-to-end data analytics project** analyzing **128,976 Amazon frei
 ---
 
 #### Page 2: Operations Performance Analysis
-(https://github.com/user-attachments/assets/a8581a19-3a78-4fe6-8716-96728b28c69e)
+https://github.com/user-attachments/assets/a8581a19-3a78-4fe6-8716-96728b28c69e
+
 *Order fulfillment funnel, delivery trends, and service-level performance matrix*
 
 **Features:**
@@ -63,7 +65,8 @@ A **complete end-to-end data analytics project** analyzing **128,976 Amazon frei
 ---
 
 #### Page 3: Product & Revenue Analytics
-![Product Analytics](screenshots/page3_products.png)
+https://github.com/user-attachments/assets/0e29a446-de98-4c5b-9e9e-9f6c749f7147
+
 *Revenue distribution treemap, category performance, and revenue trends*
 
 **Features:**
@@ -77,7 +80,8 @@ A **complete end-to-end data analytics project** analyzing **128,976 Amazon frei
 ---
 
 #### Page 4: Executive Summary
-![Executive Summary](screenshots/page4_summary.png)
+https://github.com/user-attachments/assets/2170400a-56dc-43a2-9f7e-9801656f4de8
+
 *One-page strategic overview with critical alerts and prioritized recommendations*
 
 **Sections:**
