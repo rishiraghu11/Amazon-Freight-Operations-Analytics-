@@ -36,7 +36,7 @@ A **complete end-to-end data analytics project** analyzing **128,976 Amazon frei
 ![Dashboard Overview](Page_1.png)
 
 #### Page 1: Executive Dashboard
-![Executive Dashboard](https://github.com/user-attachments/assets/7429a069-5e8c-4b6f-82c6-b016e2c0742f)
+![Executive Dashboard](https://github.com/rishiraghu11/Amazon-Freight-Operations-Analytics-/issues/1#issue-4071999735)
 *Key performance metrics, state-wise analysis, and daily trends with conditional formatting*
 
 **Features:**
