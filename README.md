@@ -36,7 +36,7 @@ A **complete end-to-end data analytics project** analyzing **128,976 Amazon frei
 ![Dashboard Overview](Page_1.png)
 
 #### Page 1: Executive Dashboard
-![Executive Dashboard](Executive_Dashboard.mp4)
+![Executive Dashboard](Executive_Dashboard.gif)
 *Key performance metrics, state-wise analysis, and daily trends with conditional formatting*
 
 **Features:**
