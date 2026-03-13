@@ -49,7 +49,7 @@ A **complete end-to-end data analytics project** analyzing **128,976 Amazon frei
 ---
 
 #### Page 2: Operations Performance Analysis
-![Operations Analysis](screenshots/page2_operations.png)
+![Operations Analysis](https://github.com/user-attachments/assets/a8581a19-3a78-4fe6-8716-96728b28c69e)
 *Order fulfillment funnel, delivery trends, and service-level performance matrix*
 
 **Features:**
