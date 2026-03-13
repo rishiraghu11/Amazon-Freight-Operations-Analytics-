@@ -103,14 +103,14 @@ https://github.com/user-attachments/assets/2170400a-56dc-43a2-9f7e-9801656f4de8
 <td width="50%">
 
 **1. Category Revenue Distribution (Pareto)**
-![Category Pareto](category_pareto.png)
+![Category Pareto](Python/category_pareto.png)
 *Shows 80% of revenue comes from top 3 categories*
 
 </td>
 <td width="50%">
 
 **2. City Segmentation Analysis**
-![City Segmentation](city_segmentation.png)
+![City Segmentation](Python/city_segmentation.png)
 *Bubble chart: Size=AOV, Color=Success Rate*
 
 </td>
@@ -120,14 +120,14 @@ https://github.com/user-attachments/assets/2170400a-56dc-43a2-9f7e-9801656f4de8
 <td width="50%">
 
 **3. Fulfillment Comparison**
-![Fulfillment](fulfillment_comparison.png)
+![Fulfillment](Python/fulfillment_comparison.png)
 *Amazon vs Merchant performance across 4 metrics*
 
 </td>
 <td width="50%">
 
 **4. Daily Revenue Trend**
-![Revenue Trend](revenue_trend.png)
+![Revenue Trend](Python/revenue_trend.png)
 *7-day and 14-day moving averages*
 
 </td>
@@ -137,14 +137,14 @@ https://github.com/user-attachments/assets/2170400a-56dc-43a2-9f7e-9801656f4de8
 <td width="50%">
 
 **5. Service Level Analysis**
-![Service Level](service_level_analysis.png)
+![Service Level](Python/service_level_analysis.png)
 *SLA compliance: Expedited vs Standard*
 
 </td>
 <td width="50%">
 
 **6. State Performance Comparison**
-![State Performance](state_performance.png)
+![State Performance](Python/state_performance.png)
 *Top 10 states: Success vs Cancel rates*
 
 </td>
@@ -154,7 +154,7 @@ https://github.com/user-attachments/assets/2170400a-56dc-43a2-9f7e-9801656f4de8
 <td>
 
 **7. Weekly Trends**
-![Weekly Trends](weekly_trends.png)
+![Weekly Trends](Python/weekly_trends.png)
 *Success and cancellation rates over 13 weeks*
 
 </td>
