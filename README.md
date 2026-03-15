@@ -357,7 +357,6 @@ ORDER BY days_in_transit DESC;
 amazon-freight-dashboard/
 │
 ├── README.md                           # This file
-├── LICENSE                             # MIT License
 │
 ├── data/
 │   ├── raw/
@@ -376,10 +375,6 @@ amazon-freight-dashboard/
 ├── python/
 │   ├── notebooks/
 │   │   └── amazon_analytics.ipynb     # Complete analysis workflow
-│   ├── scripts/
-│   │   ├── data_cleaning.py           # Data preprocessing
-│   │   ├── feature_engineering.py     # Derived columns creation
-│   │   └── visualization.py           # Chart generation
 │   ├── requirements.txt               # Python dependencies
 │   └── README.md                      # Python setup instructions
 │
@@ -387,8 +382,6 @@ amazon-freight-dashboard/
 │   ├── Amazon_Dashboard.pbix          # Power BI project file
 │   ├── measures/
 │   │   └── dax_measures.md            # All 25+ DAX formulas
-│   └── templates/
-│       └── color_palette.json         # Amazon brand colors
 │
 ├── visualizations/
 │   ├── python_outputs/
@@ -404,12 +397,6 @@ amazon-freight-dashboard/
 │       ├── page2_operations.png
 │       ├── page3_products.png
 │       └── page4_summary.png
-│
-└── documentation/
-    ├── technical_documentation.md     # Detailed technical specs
-    ├── business_analysis.md           # Insights and findings
-    ├── user_guide.md                  # Dashboard usage instructions
-    └── presentation.pdf               # Executive presentation slides
 ```
 
 ---
