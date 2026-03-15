@@ -33,7 +33,7 @@ A **complete end-to-end data analytics project** analyzing **128,976 Amazon frei
 
 ### Power BI 4-Page Interactive Dashboard
 
-![Dashboard Overview](Page_1.png)
+![Dashboard Overview](Visualisations/PowerBI_Outputs/Page_1.png)
 
 #### Page 1: Executive Dashboard
 https://github.com/user-attachments/assets/176afb9c-3097-4cca-bcb1-d9058f90ee87
@@ -451,7 +451,7 @@ amazon-freight-dashboard/
 ### Step 1: Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/amazon-freight-dashboard.git
+git clone https://github.com/rishiraghu11/amazon-freight-dashboard.git
 cd amazon-freight-dashboard
 ```
 
@@ -880,51 +880,14 @@ open powerbi/Amazon_Dashboard.pbix    # Mac
 
 ---
 
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-**To contribute:**
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-**Areas for contribution:**
-- Additional SQL analysis queries
-- Machine learning models (churn prediction, demand forecasting)
-- Real-time dashboard with streaming data
-- Mobile app integration
-- Additional data sources (customer demographics, marketing spend)
-
----
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-**You are free to:**
-- ✅ Use commercially
-- ✅ Modify
-- ✅ Distribute
-- ✅ Use privately
-
-**Under the conditions:**
-- 📄 Include license and copyright notice
-- 📄 State changes made to the original
-
----
 
 ## 👤 Author
 
-**Rishi Raghuvanshi**
+**Rishi Raj Singh Raghuvanshi**
 
-- 🌐 GitHub: [@yourgithubusername](https://github.com/yourgithubusername)
-- 💼 LinkedIn: [Rishi Raghuvanshi](https://linkedin.com/in/yourprofile)
-- 📧 Email: rishi.raghuvanshi@example.com
-- 🐦 Twitter: [@rishidata](https://twitter.com/yourhandle)
+- 🌐 GitHub: [@rishiraghu11](https://github.com/rishiraghu11)
+- 💼 LinkedIn: [Rishi Raj Singh Raghuvanshi](https://www.linkedin.com/in/rishi-raj-singh-raghuvanshi/)
+- 📧 Email: raghuvanshi11rishi@gmail.com
 
 ---
 
@@ -935,72 +898,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Built as part of data analytics portfolio development
 - Special thanks to the open-source community for tools and libraries
 
----
-
-## 📞 Contact & Support
-
-**For questions, feedback, or collaboration:**
-
-- 📧 **Email:** rishi.raghuvanshi@example.com
-- 💼 **LinkedIn:** [Connect with me](https://linkedin.com/in/yourprofile)
-- 🐙 **GitHub Issues:** [Report bugs or request features](https://github.com/yourusername/amazon-freight-dashboard/issues)
-- 🌐 **Portfolio:** [View other projects](https://yourportfolio.com)
-
-**Response time:** Within 24-48 hours
-
----
-
-## 🌟 Star This Repository!
-
-If you found this project helpful or learned something new, please consider giving it a ⭐ star!
-
-**Why star?**
-- Helps others discover the project
-- Shows appreciation for the work
-- Motivates continued development
-- Builds your GitHub activity
-
----
-
-## 📚 Additional Resources
-
-### Related Projects
-- [SQL Practice Repository](https://github.com/yourusername/sql-practice)
-- [Python Data Analysis Portfolio](https://github.com/yourusername/python-analysis)
-- [Power BI Dashboard Collection](https://github.com/yourusername/powerbi-dashboards)
-
-### Learning Resources
-- [Power BI Documentation](https://docs.microsoft.com/power-bi/)
-- [PostgreSQL Tutorial](https://www.postgresqltutorial.com/)
-- [pandas Documentation](https://pandas.pydata.org/docs/)
-- [DAX Guide](https://dax.guide/)
-
-### Tools & Downloads
-- [Power BI Desktop](https://powerbi.microsoft.com/desktop/)
-- [PostgreSQL Download](https://www.postgresql.org/download/)
-- [Python Download](https://www.python.org/downloads/)
-- [VS Code](https://code.visualstudio.com/)
-
----
-
-## 🔄 Project Updates
-
-### Version History
-
-**v1.0.0** (January 2025)
-- ✅ Initial release
-- ✅ 4-page Power BI dashboard
-- ✅ Complete SQL analysis queries
-- ✅ Python data processing pipeline
-- ✅ 7 visualization outputs
-- ✅ Comprehensive documentation
-
-**Planned for v2.0:**
-- 🔜 Real-time dashboard with live data
-- 🔜 Machine learning churn prediction model
-- 🔜 Automated daily email reports
-- 🔜 Mobile-responsive web dashboard
-- 🔜 API for programmatic access
 
 ---
 
@@ -1023,7 +920,7 @@ If you found this project helpful or learned something new, please consider givi
 
 **Built with ❤️ using PostgreSQL, Python, and Power BI**
 
-**Last Updated:** January 2025  
+**Last Updated:** March 2025  
 **Status:** ✅ Complete & Production-Ready
 
 ---
