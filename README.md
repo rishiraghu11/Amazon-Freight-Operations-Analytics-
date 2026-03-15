@@ -354,49 +354,46 @@ ORDER BY days_in_transit DESC;
 ## 📂 Project Structure
 
 ```
-amazon-freight-dashboard/
+Amazon-Freight-Operations-Analytics-/
 │
-├── README.md                           # This file
+├── README.md                          # Main project documentation
 │
-├── data/
+├── Data/
 │   ├── raw/
-│   │   └── Amazon_Sale_Report.csv     # Original dataset (128,976 records)
+│   │   └── Amazon_Sale_Report.csv    # Original dataset (128,976 records)
 │   ├── processed/
-│   │   └── amazon_enriched.csv        # Cleaned & enriched data (22 columns)
-│   └── data_dictionary.md             # Complete data documentation
+│   │   └── amazon_enriched.csv       # Cleaned & enriched data (22 columns)
+│   └── README.md                      # Data dictionary & documentation
 │
-├── sql/
-│   ├── 01_create_tables.sql           # Table creation scripts
-│   ├── 02_import_data.sql             # Data import from CSV
-│   ├── 03_data_validation.sql         # Quality checks
-│   ├── 04_analysis_queries.sql        # Business intelligence queries
-│   └── 05_performance_optimization.sql # Indexes and views
+├── SQL/
+│   ├── amazon_freight_kpi.sql        # All SQL queries and analysis
+│   └── README.md                      # SQL documentation with examples
 │
-├── python/
-│   ├── notebooks/
-│   │   └── amazon_analytics.ipynb     # Complete analysis workflow
-│   ├── requirements.txt               # Python dependencies
-│   └── README.md                      # Python setup instructions
+├── Python/
+│   ├── amazon_analytics.ipynb        # Complete Jupyter analysis workflow
+│   ├── category_pareto.png           # Pareto analysis visualization
+│   ├── city_segmentation.png         # City performance scatter plot
+│   ├── fulfillment_comparison.png    # Fulfillment comparison charts
+│   ├── revenue_trend.png             # Daily revenue trend analysis
+│   ├── service_level_analysis.png    # SLA compliance tracking
+│   ├── state_performance.png         # State-wise performance
+│   └── weekly_trends.png             # Weekly cohort analysis
 │
-├── powerbi/
-│   ├── Amazon_Dashboard.pbix          # Power BI project file
-│   ├── measures/
-│   │   └── dax_measures.md            # All 25+ DAX formulas
+├── PowerBI/
+│   ├── amazon_dashboard.pbix         # Power BI project file
+│   ├── README.md                      # DAX measures documentation
+│   ├── Dashboard.png                  # Dashboard screenshot
+│   ├── Operations.png                 # Operations page screenshot
+│   ├── Products.png                   # Products page screenshot
+│   ├── Summary.png                    # Summary page screenshot
+│   ├── Executive_Dashboard.mp4        # Page 1 demo video
+│   ├── Operation_analysis.mp4         # Page 2 demo video
+│   ├── Category_Analytics.mp4         # Page 3 demo video
+│   └── Executive_Summary.mp4          # Page 4 demo video
 │
-├── visualizations/
-│   ├── python_outputs/
-│   │   ├── category_pareto.png        # Pareto chart
-│   │   ├── city_segmentation.png      # Bubble scatter plot
-│   │   ├── fulfillment_comparison.png # 4-panel comparison
-│   │   ├── revenue_trend.png          # Time series
-│   │   ├── service_level_analysis.png # SLA tracking
-│   │   ├── state_performance.png      # Top 10 states
-│   │   └── weekly_trends.png          # Cohort analysis
-│   └── powerbi_screenshots/
-│       ├── page1_executive_dashboard.png
-│       ├── page2_operations.png
-│       ├── page3_products.png
-│       └── page4_summary.png
+└── Visualisations/
+    ├── PowerBI_Outputs/               # Power BI screenshots & videos
+    └── Python_Outputs/                # Python visualization outputs
 ```
 
 ---
@@ -450,14 +447,23 @@ cd amazon-freight-dashboard
 # Create database
 createdb amazon_analytics
 
-# Import schema
-psql -d amazon_analytics -f sql/01_create_tables.sql
+# Import schema and run analysis queries
+psql -d amazon_analytics -f SQL/amazon_freight_kpi.sql
 
-# Import data
-psql -d amazon_analytics -f sql/02_import_data.sql
+# Import the enriched dataset
+psql -d amazon_analytics -c "\COPY amazon_orders FROM 'Data/processed/amazon_enriched.csv' DELIMITER ',' CSV HEADER;"
 
-# Run validation
-psql -d amazon_analytics -f sql/03_data_validation.sql
+# Verify data import
+psql -d amazon_analytics -c "SELECT COUNT(*) as total_orders, SUM(amount) as total_revenue FROM amazon_orders;"
+```
+
+**Expected output:**
+```
+CREATE TABLE
+INSERT 0 128976
+ total_orders | total_revenue 
+--------------+---------------
+       128976 |    77765433.40
 ```
 
 **Expected output:**
@@ -504,10 +510,6 @@ openpyxl==3.1.2
 # Option A: Jupyter Notebook (recommended)
 jupyter notebook python/notebooks/amazon_analytics.ipynb
 
-# Option B: Python Script
-python python/scripts/data_cleaning.py
-python python/scripts/feature_engineering.py
-python python/scripts/visualization.py
 ```
 
 **Expected output:**
