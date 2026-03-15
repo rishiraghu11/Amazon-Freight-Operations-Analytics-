@@ -589,4 +589,4 @@ FROM amazon_orders;
 
 **All queries tested and validated on PostgreSQL 14+**  
 **Created by:** Rishi Raghuvanshi  
-**Last Updated:** January 2025
+**Last Updated:** March 2025
